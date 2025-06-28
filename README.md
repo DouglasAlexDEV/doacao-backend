@@ -14,7 +14,7 @@ app.post('/create-payment', async (req, res) => {
     
     const preference = {
         items: [{ title: `Doação ${effect}`, unit_price: amount, quantity: 1 }],
-        notification_url: 'https://seu-backend.onrender.com/webhook',
+        notification_url: 'https://backenddonate.onrender.com/webhook',
         external_reference: effect
     };
 
